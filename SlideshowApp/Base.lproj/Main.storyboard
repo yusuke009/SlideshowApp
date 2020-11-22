@@ -61,7 +61,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="xXe-QE-WHg">
                     <connections>
-                        <action selector="tapImage:" destination="BYZ-38-t0r" id="T8T-Yu-nUv"/>
+                        <action selector="tapImage:" destination="BYZ-38-t0r" id="9ZI-Ob-S74"/>
                         <segue destination="oPg-Lv-a3f" kind="show" id="jck-ng-8tU"/>
                     </connections>
                 </tapGestureRecognizer>
@@ -71,8 +71,6 @@
         <!--Result View Controller-->
         <scene sceneID="SjH-oV-4ys">
             <objects>
-                <exit id="U2s-bi-zsv" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="bDr-yN-ZLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="oPg-Lv-a3f" customClass="ResultViewController" customModule="SlideshowApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pof-0y-u6V">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
@@ -99,6 +97,8 @@
                         <outlet property="upImage" destination="3XP-HI-KBB" id="06n-UD-gg9"/>
                     </connections>
                 </viewController>
+                <exit id="U2s-bi-zsv" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bDr-yN-ZLg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="837.68115942028987" y="-198.09782608695653"/>
         </scene>

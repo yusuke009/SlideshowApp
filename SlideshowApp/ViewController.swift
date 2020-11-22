@@ -93,6 +93,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func unwind (_ segue: UIStoryboardSegue) {
+     
+    
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
@@ -100,7 +102,18 @@ class ViewController: UIViewController {
         
         resulutViewController.imageSlide1 = imageView.image
         
+    if timer != nil {
+            timer.invalidate()
+            timer = nil
+            
+            startBottom.setTitle("再生", for: .normal)
+                     nextBottom.isEnabled = true
+                     backBottom.isEnabled = true
+                 
+            
+        }
         
+
         
     }
 
