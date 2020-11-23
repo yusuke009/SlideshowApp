@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9672896A256B64A900FF5F49 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96728969256B64A900FF5F49 /* image1.jpg */; };
+		9672896C256B64B500FF5F49 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9672896B256B64B400FF5F49 /* image2.jpg */; };
+		9672896E256B64BD00FF5F49 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9672896D256B64BD00FF5F49 /* image3.jpg */; };
 		967487CE2563E3230015A620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967487CD2563E3230015A620 /* AppDelegate.swift */; };
 		967487D02563E3230015A620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967487CF2563E3230015A620 /* SceneDelegate.swift */; };
 		967487D22563E3230015A620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967487D12563E3230015A620 /* ViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96728969256B64A900FF5F49 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		9672896B256B64B400FF5F49 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		9672896D256B64BD00FF5F49 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		967487CA2563E3230015A620 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		967487CD2563E3230015A620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		967487CF2563E3230015A620 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				967487D62563E3250015A620 /* Assets.xcassets */,
 				967487D82563E3250015A620 /* LaunchScreen.storyboard */,
 				967487DB2563E3250015A620 /* Info.plist */,
+				96728969256B64A900FF5F49 /* image1.jpg */,
+				9672896D256B64BD00FF5F49 /* image3.jpg */,
+				9672896B256B64B400FF5F49 /* image2.jpg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -129,6 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				967487DA2563E3250015A620 /* LaunchScreen.storyboard in Resources */,
+				9672896C256B64B500FF5F49 /* image2.jpg in Resources */,
+				9672896A256B64A900FF5F49 /* image1.jpg in Resources */,
+				9672896E256B64BD00FF5F49 /* image3.jpg in Resources */,
 				967487D72563E3250015A620 /* Assets.xcassets in Resources */,
 				967487D52563E3230015A620 /* Main.storyboard in Resources */,
 			);
