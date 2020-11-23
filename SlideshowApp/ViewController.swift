@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     var timer: Timer!
     
-    var imageSlide:[UIImage] = [UIImage(named: "image1")!,UIImage(named:"image2")!, UIImage(named:"image3")!]
+    var imageSlide:[UIImage] = [UIImage(named: "image1.jpg")!,UIImage(named:"image2.jpg")!, UIImage(named:"image3.jpg")!]
     
  
 
